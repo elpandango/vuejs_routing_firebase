@@ -14,12 +14,12 @@ Vue.http.options.root = 'https://vuejs-http-dca5c.firebaseio.com/data.json';
 // Set the configuration for your app
 // TODO: Replace with your project's config object
 let config = {
-  apiKey: "AIzaSyDTGDyyNczsWdfMNVREgZ6jlGraURLIapU",
-  authDomain: "vuejs-http-dca5c.firebaseapp.com",
-  databaseURL: "https://vuejs-http-dca5c.firebaseio.com",
-  projectId: "vuejs-http-dca5c",
-  storageBucket: "vuejs-http-dca5c.appspot.com",
-  messagingSenderId: "402573697197"
+  apiKey: "AIzaSyAukf3yopUbfTjzDyG6hiwVefbgmtDhtCQ",
+  authDomain: "vuejs-auth-project01.firebaseapp.com",
+  databaseURL: "https://vuejs-auth-project01.firebaseio.com",
+  projectId: "vuejs-auth-project01",
+  storageBucket: "",
+  messagingSenderId: "118979583701"
 };
 firebase.initializeApp(config);
 

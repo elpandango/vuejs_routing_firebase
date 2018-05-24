@@ -35,6 +35,8 @@
 </template>
 
 <script>
+  import firebase from 'firebase';
+
   export default {
     data() {
       return {
@@ -50,46 +52,6 @@
     methods: {
       generateId() {
         return this.user.id = '_' + Math.random().toString(36).substr(2, 9);
-      },
-      deleteItem(id) {
-//        const tempArr = [];
-//        let equalId = 0;
-
-//        this.$http.get('')
-//          .then(response => {
-//            return response.json()
-//          })
-//          .then(data => {
-
-
-//            for (let key in data) {
-//              tempArr.push(data[key]);
-//            }
-//            tempArr.find(el => {
-//              return el.id === id ? requiredId = id : null;
-//            });
-
-//            tempArr.map((item, index) => {
-//              return item.id === id ? equalId = index : null;
-//            });
-//
-//            tempArr.splice(tempArr[equalId], 1);
-
-//            console.log(equalId);
-//            tempArr.findIndex(el => {
-//              return console.log(el.id === id);
-//            });
-
-//            console.log('Required ID: ', requiredId);
-//            console.log('Required ID index: ', requiredIdIndex);
-
-//          });
-
-//        this.$http.delete('')
-//          .then(response => {
-//            console.log('Deleted!');
-//            console.log(response);
-//          })
       },
       fetchData() {
         this.$http.get('')
